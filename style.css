@@ -1,30 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-้
-*{
+
+้ * {
     padding: 0%;
     margin: 0%;
     font-family: 'Inter', sans-serif;
     font-size: 1.68vw;
 
 }
-h1{
+
+h1 {
     text-align: center;
     color: red;
 }
 
-.user-list{
-    
-}
+.user-list {}
 
-ul{
+ul {
     display: flex;
     flex-direction: column;
 
-   align-items: center;
-   list-style: none;
+    align-items: center;
+    list-style: none;
 }
 
-li{
+li {
     font-size: 25px;
     margin: 10px;
     font-weight: bold;
@@ -34,40 +33,41 @@ li{
     padding-bottom: 5px;
     border-radius: 5px;
 }
-li:hover{
+
+li:hover {
     transform: scale(1.35);
     color: #5619ff;
     border-bottom: #5619ff solid 3px;
 }
 
-.post-info{
+.post-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.container{
-width: 230px;
-margin: 10px;
-border: #000000 solid 1px;
-border-radius: 10px;
-padding: 7px;
-transition: 0.7s ease;
-cursor: pointer;
+.container {
+    width: 230px;
+    margin: 10px;
+    border: #000000 solid 1px;
+    border-radius: 10px;
+    padding: 7px;
+    transition: 0.7s ease;
+    cursor: pointer;
 }
 
-.container:hover{
+.container:hover {
     transform: scale(1.17);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-.title{
+.title {
     font-size: x-large;
     font-weight: bold;
 }
 
 
-.body-post{
- 
+.body-post {
+
     font-size: medium;
 }
