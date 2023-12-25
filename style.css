@@ -31,11 +31,10 @@ li {
     font-size: 24px;
     margin: 10px;
     font-weight: bold;
+    color: #1a0063;
     cursor: pointer;
     transition: 0.5s ease;
-    border-bottom: #000000 solid 3px;
     padding-bottom: 5px;
-    border-radius: 5px;
 }
 
 li:hover {
