@@ -1,7 +1,63 @@
-้*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+้
+*{
     padding: 0%;
     margin: 0%;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.68vw;
+
 }
 h1{
+    text-align: center;
     color: red;
+}
+
+.user-list{
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+
+   align-items: center;
+   list-style: none;
+}
+
+li{
+    font-size: 25px;
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-bottom: #000000 solid 3px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+li:hover{
+    transform: scale(1.35);
+    color: #5619ff;
+    border-bottom: #5619ff solid 3px;
+}
+
+.post-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container{
+width: 230px;
+margin: 10px;
+}
+
+.title{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.body-post{
+ 
+    font-size: medium;
 }
