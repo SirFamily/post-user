@@ -24,7 +24,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
   })
 
 const linkPost = (userId) => {
-
   postInfo.innerHTML = '';
   fetch(`https://jsonplaceholder.typicode.com/posts?userId=${userId}`)
     .then(res => res.json())

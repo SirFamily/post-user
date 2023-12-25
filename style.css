@@ -32,18 +32,18 @@ ul {
 
 li {
     font-size: 24px;
-    margin: 10px;
+    margin: 13px;
     font-weight: bold;
-    color: #1a0063;
+    color: #7a7a7a;
     cursor: pointer;
     transition: 0.5s ease;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 li:hover {
     transform: scale(1.35);
-    color: #5619ff;
-    border-bottom: #5619ff solid 3px;
+    color: #000000;
+    border-bottom: #000000 solid 3px;
 }
 
 .post-info {
