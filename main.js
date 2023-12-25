@@ -29,9 +29,11 @@ const linkPost = (userId) =>{
             console.log(`Title: ${el.title}`);
             const container = makeElement('div', 'class', 'container', '')
             const title = makeElement('div', 'class', 'title', `${el.title}`)
+            const hr = makeElement('hr', '', '', '')
             const body = makeElement('div', 'class', 'body-post', `${el.body}`)
             postInfo.append(container)
             container.append(title)
+            container.append(hr)
             container.append(body)
         }
     })

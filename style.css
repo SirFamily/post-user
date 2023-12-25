@@ -49,6 +49,16 @@ li:hover{
 .container{
 width: 230px;
 margin: 10px;
+border: #000000 solid 1px;
+border-radius: 10px;
+padding: 7px;
+transition: 0.7s ease;
+cursor: pointer;
+}
+
+.container:hover{
+    transform: scale(1.17);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .title{
