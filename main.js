@@ -2,7 +2,7 @@ const userList = document.querySelector('.user-list')
 const postInfo = document.querySelector('.post-info')
 
 const ping = new Audio();
-ping.src = "./ping.mp3";
+ping.src = "./paper.mp3";
 
 function makeElement(tag, attr_n, attr_v, content) {
   let output = document.createElement(tag);
