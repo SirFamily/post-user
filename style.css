@@ -34,7 +34,7 @@ li {
     font-size: 24px;
     margin: 13px;
     font-weight: bold;
-    color: #7a7a7a;
+    color: #525252;
     cursor: pointer;
     transition: 0.5s ease;
     padding-bottom: 2px;
@@ -42,8 +42,11 @@ li {
 
 li:hover {
     transform: scale(1.35);
-    color: #000000;
-    border-bottom: #000000 solid 3px;
+    color: #cacaca;
+    border: #000000 solid 1.7px;
+    background-color: #414141;
+    padding: 0 10px;
+    border-radius: 20px;
 }
 
 .post-info {
