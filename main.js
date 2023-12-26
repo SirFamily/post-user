@@ -29,7 +29,7 @@ const linkPost = (userId) => {
     .then(res => res.json())
     .then(data => {
       for (let el of data) {
-        console.log(`Title: ${el.title}`);
+        // console.log(`Title: ${el.title}`);
         const container = makeElement('div', 'class', 'container', '')
         const title = makeElement('div', 'class', 'title', `${el.title}`)
         const hr = makeElement('hr', '', '', '')
